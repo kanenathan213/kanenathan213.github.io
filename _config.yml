@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   blog of Nathan Kane, a front-end developer and designer. I write about what I learn
   building UX with Javascript in React and Angular.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://uibiquity.com" # the base hostname & protocol for your site
+url: "http://kanenathan213.github.io" # the base hostname & protocol for your site
 twitter_username: uibiquity
 github_username:  kanenathan213
 
