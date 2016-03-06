@@ -127,12 +127,11 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
+pre {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $code-syntax-background;
 }
 
 code {
@@ -160,8 +159,6 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
     @extend %clearfix;
 
     @include media-query($on-laptop) {

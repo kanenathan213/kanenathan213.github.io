@@ -9,7 +9,6 @@
     position: relative;
     .wrapper {
       border-bottom: 1px solid $grey-color-light;
-
     }
 }
 
@@ -101,7 +100,6 @@
  * Site footer
  */
 .site-footer {
-    padding: $spacing-unit 0;
 
     .wrapper {
       padding: $spacing-unit 0;
@@ -175,25 +173,49 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0;
 }
 
 .page-heading {
     font-size: 20px;
 }
 
+.post {
+  padding-top: $spacing-unit;
+}
+
 .post-list {
+    margin-bottom: 0;
     margin-left: 0;
     list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
+    .post-item {
+        border-bottom: 1px solid $grey-color-light;
+        padding: $spacing-unit 0;
+        transition: background 0.2s ease-out;
+
+        &:hover {
+          background: rgba($brand-color, 0.2);
+        }
+
+        &:last-child {
+          border-bottom: 0;
+        }
+
+        a:hover {
+          text-decoration: none;
+        }
+
+        h2 {
+          margin-bottom: 0;
+        }
     }
 }
 
 .post-meta {
-    font-size: $small-font-size;
     color: $grey-color;
+    font-size: $small-font-size;
+    text-transform: uppercase;
 }
 
 .post-link {
