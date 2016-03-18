@@ -198,6 +198,22 @@ pre {
 
         path {
             fill: $grey-color;
+            transition: fill .2s ease-out;
         }
+
+        &:hover {
+          path {
+            fill: black;
+          }
+        }
+    }
+
+    &.icon--dribbble > svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      text-decoration: none;
     }
 }
