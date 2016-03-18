@@ -2,12 +2,20 @@
 
   <div class="wrapper">
     <div class="header-content">
-      <a href="{{ site.baseurl }}/">
-        <div class="site-title">{{ site.title }}</div>
-        <div class="site-tagline">{{ site.tagline }}</div>
-      </a>
-      {% include icon-dribbble.html %}
-      {% include icon-github.html %}
+      <div class="header-title-content">
+        <a href="{{ site.baseurl }}/" class="logo-link">
+          <h1 class="site-title">{{ site.title }}</h1>
+          <div class="site-tagline">{{ site.tagline }}</div>
+        </a>
+        <div class="link-wrapper">
+          {% include icon-dribbble.html %}
+          {% include icon-github.html %}
+          <a href="/writing/" class="icon-link">Writing</a>
+        </div>
+      </div>
+      <div class="header-bio-content">
+        Hi there, I'm a UX engineer focused on front-end web development and product design. I'm currently working on side projects while living in new places. Previously, I was a designer at Intuit, where I worked on QuickBooks and Mint. <a class="bio-link" href="/about">Learn more</a>
+      </div>
     </div>
   </div>
 
