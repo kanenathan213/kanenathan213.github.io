@@ -1,20 +1,23 @@
 ---
-layout: default
+layout: default-without-header
 ---
 {% assign project = site.data.projects[page.project_id] %}
-<section class="project-section">
-  <div class="project-content">
-    <div class="project-question">{{ project.question }}</div>
-    <img src="{{ project.hero_image_path }}" class="project-hero-image">
-    <div class="project-overview">{{ project.overview }}</div>
-    {% for step in project.steps %}
-      <div class="project-step">
-        <img alt='project step' src='{{ step.screenshot_url }}'>
-        <div class="caption-wrapper">
-          <span class="caption-title">{{ step.caption_title }}.</span>
-          <span class="caption">{{ step.caption }}</span>
+<div class="project-nav"></div>
+<div class="wrapper">
+  <section class="project-section">
+    <div class="project-content">
+      <div class="project-question">{{ project.question }}</div>
+      <img src="{{ project.hero_image_path }}" class="project-hero-image">
+      <div class="project-overview">{{ project.overview }}</div>
+      {% for step in project.steps %}
+        <div class="project-step">
+          <img alt='project step' src='{{ step.screenshot_url }}'>
+          <div class="caption-wrapper">
+            <span class="caption-title">{{ step.caption_title }}.</span>
+            <span class="caption">{{ step.caption }}</span>
+          </div>
         </div>
-      </div>
-    {% endfor %}
-  </div>
-</section>
+      {% endfor %}
+    </div>
+  </section>
+</div>
