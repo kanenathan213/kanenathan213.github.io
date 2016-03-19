@@ -4,7 +4,7 @@ title:  "Coding as a Designer"
 date:   2015-11-04
 categories: general
 author: "Nathan Kane"
-featured: 'true'
+featured: true
 comments: true
 ---
 I became convinced to that coding ought to become a part of my design process after reading [Why We Skip Photoshop](https://signalvnoise.com/posts/1061-why-we-skip-photoshop) by Basecamp founder/CEO Jason Fried. In it, he explains their rationale for skipping graphic design tools in favor of developing in the browser. At reading it for the first time, I had visions of painfully positioning boxes on a screen at a snail's pace, and having to Google every minor change. However, over time, code has become my default way to whip up mockups and prototypes quickly, producing higher quality and (actually) useful artifacts at the end of my process.

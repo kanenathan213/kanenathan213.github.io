@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Profit-oriented design"
-date:   2015-11-03
+date:   2015-11-05
 categories: general
 author: "Nathan Kane"
-featured: 'true'
+featured: true
 comments: true
 ---
 Sometimes, you just need to ring the cash register. For some design work, designers can succeed despite being insulated from the real metrics of their output. This is expected, because it’s nearly impossible to measure the value of a new icon, brand identity, or even deep feature work. Did adding a tagging system for blog posts on the admin panel lift overall subscriptions? No one can know on any reasonable time scale or without considerable analysis. This ironically aligns with the impulse designers often have to “just create something beautiful that helps people.” No need to measure or question; it’s an inherent good.

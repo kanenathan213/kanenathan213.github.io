@@ -4,7 +4,7 @@ title:  "How doing sales made me a better designer"
 date:   2015-11-18
 categories: general
 author: "Nathan Kane"
-featured: 'true'
+featured: true
 comments: true
 ---
 Sale teams and product teams rarely speak the same language, or agree on much of anything. It seems that sales people are wired differently than their engineer and designer counterparts. Yet, ultimately their goals are the same. It's just the steps to get there that put them at odds.

@@ -4,7 +4,7 @@ title:  "BOOK NOTES: Clean Code"
 date:   2016-02-21
 categories: book-notes
 author: "Nathan Kane"
-featured: 'true'
+featured: false
 comments: true
 ---
 I've been reading a lot of programming books lately, and wanted to share gems I'm finding in them.  (I was shamelessly inspired by [Derek Sivers](https://sivers.org/book) for this).
