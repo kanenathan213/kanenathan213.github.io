@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Profit-oriented design"
-date:   2015-11-03 13:33:54 -0800
+date:   2015-11-03
 categories: general
 author: "Nathan Kane"
 featured: 'true'
