@@ -2,11 +2,36 @@ abound:
     title: Abound
     question: "What's a simple way to find out when you can retire?"
     overview: "Young professionals treat retirement as a distant, unattainable goal. However, they don’t realize how close financial freedom can be with aggressive investing and mindful spending. With the help of smart defaults and assumptions, Abound boils financial independence down to a simple equation, and helps users track their path to freedom."
-    hero_image_path: "../../assets/563b1eba2d0980521287581f_nathan-small-dup.jpeg"
+    hero_image_path: "../../assets/abound-title.png"
     steps:
-      - caption_title: The first caption
-        caption:  sidfjsdifjdifj dsfij dfidfdf
-        screenshot_url: ""
-      - caption_title: The second caption
-        caption: mmm what you say
-        screenshot_url: ""
+      - caption_title: Brand
+        caption: "We want to bring aspiration and optimism to the traditionally sterile and even painful topic of money. Implied is the hope that the feeling of abundance is attainable for everyone."
+        screenshot_url: "../../assets/abound-step-1.png"
+      - caption_title: Landing page
+        caption: "Wanted a simple, clear description of the Abound benefit and service. “Leave your job...” is provocative enough to catch attention and pique interest for visitors, and it also filters for our target users who are passionate about using money tools to improve their lives."
+        screenshot_url: "../../assets/abound-step-2.png"
+      - caption_title: Input view
+        caption: "Clean, focused input to not overwhelm the user with complexity (unlike many personal finance tools). We went for the minimum amount of clutter. We used a custom Angular directive to constrain the input to dollars, as well as Angular animation to smooth the transition between steps."
+        screenshot_url: "../../assets/abound-step-3.png"
+      - caption_title: Output view
+        caption: "We wanted to give primacy to the number of years until you can retire, which is the main value of Abound. Hence the centrality and contrast. Below there’s a peek at the graph to give explanation to how we arrived at that number, and the opportunity to try different input values and view its impact. We used D3 for the graphing component, and our Angular app triggers a recalculation and redraw whenever inputs are changed anywhere in the app."
+        screenshot_url: "../../assets/abound-step-4.png"
+      - caption_title: Actions
+        caption: "So now the user knows how far away they are from financial independence: now what? I wanted to create a dynamic browsing experience of content that can reduces the number of years until retirement. We chose an image-based approach to communicate diversity of options and preview the products that we endorse."
+        screenshot_url: "../../assets/abound-step-5.png"
+
+qb_news:
+    title: QuickBooks News
+    question: "How do we get customers to try new features?"
+    overview: "Awareness and engagement with new features and product changes was pretty low in QuickBooks. We set out to define a pattern for messages that alerted customer to relevant product updates each month."
+    hero_image_path: "../../assets/qb-news-title.png"
+    steps:
+      - caption_title: Concept explorations and feedback
+        caption: "After doing some competitive research, I sketched out a variety of concepts for messaging to prompt the team to grapple with some big questions: how interruptive should we be? Which content belongs here? QuickBooks launches many things frequently: what belongs in our message?"
+        screenshot_url: "../../assets/qb-news-step-1.jpg"
+      - caption_title: "HTML/CSS/JS prototypes"
+        caption: "I wanted to get a feel for clickability, color, and motion, so I quickly coded up some prototypes of the likely candidates after the initial feedback. I used an Angular framework I built that leverages the real UI components of QuickBooks. This helped the team really consider if content categorization mattered or not, helped us get a feel for a real life experience, and resulted in a seamless transition to our developers."
+        screenshot_url: "../../assets/qb-news-step-2.png"
+      - caption_title: "Final (v1)"
+        caption: "We chose to go with a list view for to remain flexible for future unforeseen content. A subtle, unifying graphic conceptualizes each message and focuses the user on reading the header text."
+        screenshot_url: "../../assets/qb-news-step-3.png"

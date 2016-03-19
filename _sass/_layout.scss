@@ -358,3 +358,39 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.project-step {
+  margin: $spacing-unit*2 0;
+
+  img {
+    display: block;
+    margin: auto;
+    border: 1px solid rgba(black,0.1);
+    border-radius: 10px;
+  }
+}
+
+.project-hero-image {
+  margin: auto auto $spacing-unit*2;
+}
+
+.project-overview {
+  border-left: 3px solid $brand-color;
+  border-right: 3px solid $brand-color;
+  padding: 0 $spacing-unit;
+}
+
+.project-question {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  margin: $spacing-unit*2 auto;
+  text-align: center;
+}
+
+.caption-wrapper {
+  margin: 10px 0;
+}
+
+.caption-title {
+  font-weight: bolder;
+}

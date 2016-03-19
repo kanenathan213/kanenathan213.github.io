@@ -1,8 +1,4 @@
 ---
-layout: default
-title: QuickBooks Growth
-project_id: qb_growth
-image_path: ""
+layout: project
+project_id: qb_news
 ---
-
-QB let's go
