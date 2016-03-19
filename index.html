@@ -3,11 +3,30 @@ layout: default-with-header
 ---
 <div class="home">
 {% for project in site.projects %}
-<div class="wrapper">
-  <div>
-    <a href='{{ project.url }}' class='project-link'>{{ project.title }}</a>
+  <div class="wrapper">
+  {% if project.featured %}
+  <a href='{{ project.url }}' class="project-container-link-wrapper">
+    <div class="project-container">
+      <div class="project-link-image-wrapper">
+        <img src="{{ project.thumbnail_img_url }}" class="project-link-image">
+      </div>
+      <div class="project-link-text-wrapper">
+        <div class='project-link'>{{ project.label }}</div>
+        <div class="project-link-tagline">{{ project.tagline }}</div>
+      </div>
+    </div>
+  </a>
+  {% else %}
+  <div class="project-container hidden-projects">
+    <div class="project-link-image-wrapper">
+      <img src="{{ project.thumbnail_img_url }}" class="project-link-image">
+    </div>
+    <div class="project-link-text-wrapper">
+      <a href='{{ project.url }}' class='project-link'>{{ project.label }}</a>
+      <div class="project-link-tagline">{{ project.tagline }}</div>
+    </div>
   </div>
-
+  {% endif %}
+  </div>
 {% endfor %}
-</div>
 </div>
