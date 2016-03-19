@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-
+{% assign project = site.data.projects[page.project_id] %}
 <section class="project-section">
-  {{ page.question }}
-
-  <img src="{{ page.hero_image_path }}">
-
-  {{ page.overview }}
 
   <div class="project-content">
+    {{ project.question }}
+    <img src="{{ project.hero_image_path }}">
+    {{ project.overview }}
     {{ content }}
   </div>
 
