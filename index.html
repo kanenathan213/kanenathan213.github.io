@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-
 <div class="home">
-
-  Welcome
-
+{% for project in site.projects %}
+<div>
+  <a href='{{ project.url }}'>{{ project.title }}</a>
+</div>
+{% endfor %}
 </div>
