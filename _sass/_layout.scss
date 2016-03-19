@@ -451,7 +451,6 @@
   }
   .project-link {
     font-size: 1.8rem;
-    margin-top: 5px;
   }
 
   @include media-query($on-palm) {
@@ -462,6 +461,7 @@
 
     .project-link {
       font-size: 1.2rem;
+      margin-top: 5px;
     }
   }
 }

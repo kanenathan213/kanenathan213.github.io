@@ -14,5 +14,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+permalink: "/writing/:title"
 # Build settings
 markdown: kramdown
