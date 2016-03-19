@@ -13,7 +13,7 @@ dribbble_username:  kanenathan213
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /:path/
 permalink: "/writing/:title"
 # Build settings
 markdown: kramdown
