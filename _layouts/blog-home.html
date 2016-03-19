@@ -22,7 +22,7 @@ permalink: /writing/
       </ul>
     </div>
     <div class="recent-posts-wrapper">
-      <h2 class="posts-lists-title">Recent</h2>
+      <h2 class="posts-lists-title">Most recent</h2>
       <ul class="post-list">
         {% assign sorted_posts = site.posts | sort:"date" | reverse %}
         {% for post in sorted_posts limit:5 %}
