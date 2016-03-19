@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Software terms that tripped me up"
-categories: softwrae
+categories: software
 author: "Nathan Kane"
+date:   2016-03-01 13:33:54 -0800
 ---
 
 KeyPath

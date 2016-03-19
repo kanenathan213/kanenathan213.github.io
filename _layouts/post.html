@@ -1,15 +1,18 @@
 ---
 layout: default-with-header
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="wrapper">
+  <a href="/writing/" class="post-back-link">< Writing</a>
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta">{% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> • {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-  </header>
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <p class="post-meta">{% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> • {% endif %}<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
+    </div>
 
-</article>
+  </article>
+</div>

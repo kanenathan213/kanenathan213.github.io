@@ -3,6 +3,7 @@ layout: post
 title:  "Book notes: The Pragmatic Programmer"
 categories: book-notes
 author: "Nathan Kane"
+date:   2016-03-07 13:33:54 -0800
 ---
 
 Yo yo yo
