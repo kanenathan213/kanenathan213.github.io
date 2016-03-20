@@ -326,13 +326,15 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 3rem;
     letter-spacing: -1px;
     line-height: 1;
+}
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+@include media-query($on-palm) {
+  .post-title {
+    font-size: 1.5rem
+  }
 }
 
 .post-content {
@@ -410,6 +412,10 @@
   line-height: 3.2rem;
   text-align: center;
   padding: $spacing-unit 0;
+  @include media-query($on-palm) {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
 }
 
 .caption-wrapper {

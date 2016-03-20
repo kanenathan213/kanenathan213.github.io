@@ -17,3 +17,5 @@ collections:
 permalink: "/writing/:title"
 # Build settings
 markdown: kramdown
+gems:
+  - octopress-autoprefixer
