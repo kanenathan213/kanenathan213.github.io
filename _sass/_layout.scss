@@ -465,8 +465,23 @@
   max-width: 70px;
 }
 
-.newsletter-form-container {
+.newsletter-wrapper {
   margin-bottom: $spacing-unit;
+  text-align: center;
+
+  .newsletter-link {
+    border: 1px solid rgba(black,0.2);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: auto;
+    transition: background 0.2s ease-out;
+
+    &:hover {
+      background: rgba($brand-color,0.2);
+      text-decoration: none;
+    }
+  }
 }
 
 .project-navigator {
@@ -487,6 +502,10 @@
   &:hover {
       text-decoration: none;
     }
+}
+
+.blog-home-wrapper.container-fluid {
+  padding: 0;
 }
 
 .project-link-text-wrapper {
