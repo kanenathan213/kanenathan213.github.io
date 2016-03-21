@@ -1,7 +1,8 @@
 ---
 layout: default-without-header
 ---
-{% assign project = site.data.projects[page.project_id] %}
+{% assign all_projects = site.data.projects %}
+{% assign project = all_projects[page.project_id] %}
 <div class="project-nav">
   <div class="wrapper">
     <a class="back-link" href="/">Nathan Kane</a>
@@ -32,4 +33,3 @@ layout: default-without-header
         {% endfor %}
       </div>
   </section>
-</div>
