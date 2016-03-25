@@ -5,4 +5,5 @@ label: 'Mint'
 tagline: 'I designed a new feature for car value tracking'
 thumbnail_img_url: '../../assets/mint_thumbnail.png'
 featured: 'false'
+browse_index: 4
 ---

@@ -5,4 +5,5 @@ label: 'QuickBooks news'
 tagline: 'I designed in-product announcements'
 thumbnail_img_url: '../../assets/qb_thumbnail.png'
 featured: 'false'
+browse_index: 5
 ---

@@ -5,4 +5,5 @@ label: 'QuickBooks onboarding'
 tagline: 'I redesigned how customers learn about new features'
 thumbnail_img_url: '../../assets/qb_thumbnail.png'
 featured: 'true'
+browse_index: 3
 ---

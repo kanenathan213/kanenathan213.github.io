@@ -3,33 +3,47 @@ layout: default-without-header
 ---
 {% assign all_projects = site.data.projects %}
 {% assign project = all_projects[page.project_id] %}
+
 <div class="project-nav">
+  {{ this_site }}
   <div class="wrapper">
     <a class="back-link" href="/">Nathan Kane</a>
     >
     <span class="back-link">{{ project.title }}</span>
   </div>
 </div>
-  <section class="project-section">
-    <div class="project-content">
+<section class="project-section">
+  <div class="project-content">
+    <div class="wrapper">
+      <div class="project-question">{{ project.question }}</div>
+      <img src="{{ project.hero_image_path }}" class="project-hero-image">
+    </div>
+    <div class="project-overview">
       <div class="wrapper">
-        <div class="project-question">{{ project.question }}</div>
-        <img src="{{ project.hero_image_path }}" class="project-hero-image">
+      {{ project.overview }}
       </div>
-      <div class="project-overview">
-        <div class="wrapper">
-        {{ project.overview }}
-        </div>
-      </div>
-      <div class="wrapper">
-        {% for step in project.steps %}
-          <div class="project-step">
-            <img alt='project step' src='{{ step.screenshot_url }}'>
-            <div class="caption-wrapper">
-              <span class="caption-title">{{ step.caption_title }}.</span>
-              <span class="caption">{{ step.caption }}</span>
-            </div>
+    </div>
+    <div class="wrapper">
+      {% for step in project.steps %}
+        <div class="project-step">
+          <img alt='project step' src='{{ step.screenshot_url }}'>
+          <div class="caption-wrapper">
+            <span class="caption-title">{{ step.caption_title }}.</span>
+            <span class="caption">{{ step.caption }}</span>
           </div>
-        {% endfor %}
-      </div>
-  </section>
+        </div>
+      {% endfor %}
+      {% for current_project in site.projects %}
+        {% if page.browse_index == forloop.length %}
+          {% assign next_index = 1 %}
+        {% else %}
+          {% assign next_index = page.browse_index | plus:'1' %}
+        {% endif %}
+        {% if current_project.browse_index == next_index %}
+        <div class="next-project">
+          <a href="{{ current_project.url }}" class="next-project-link">Next project: {{ current_project.label }}</a>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+</section>

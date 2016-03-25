@@ -578,3 +578,13 @@
 .writing-title {
   margin-top: $spacing-unit/2;
 }
+
+.next-project {
+  border-top: 1px solid rgba(black, 0.1);
+  margin: auto;
+  padding: $spacing-unit 0;
+  text-align: center;
+  .next-project-link {
+    display: inline-block;
+  }
+}
