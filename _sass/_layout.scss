@@ -326,6 +326,15 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    font-size: 1.25rem;
+    line-height: 2.1rem;
+    word-break: break-word;
+    word-wrap: break-word;
+
+    @include media-query($on-palm) {
+      font-size: 1rem;
+      line-height: 1.7rem;
+    }
 
     h2 {
         font-size: 32px;
@@ -543,8 +552,8 @@
   }
 
   @include media-query($on-palm) {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
 
     .top-posts-wrapper {
       padding-bottom: $spacing-unit/2;
@@ -562,9 +571,13 @@
   }
 }
 
-.post-back-link {
+.writing-nav-wrapper {
   border-bottom: 1px solid rgba(black, 0.1);
-  display: block;
+  width: 100%;
+}
+
+.post-back-link {
+  display: inline-block;
   padding: $spacing-unit $spacing-unit/2 $spacing-unit/2;
   transition: transform 0.2s ease-out;
 
