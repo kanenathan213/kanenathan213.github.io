@@ -25,28 +25,23 @@ $grey-color-dark:  darken($grey-color, 25%);
 $code-syntax-background:      rgba($brand-color,0.1);
 
 // Width of the content area
-$content-width:    750px;
-$header-content-width:    900px;
+$content-width: 750px;
+$header-content-width: 900px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$xs: ( max:  767px );
+$sm: ( min:  768px );
+$md: ( min:  992px );
+$lg: ( min: 1200px );
+$sm-only: ( min: map-get($sm, min), max: map-get($md, min) - 1 );
+$md-only: ( min: map-get($md, min), max: map-get($lg, min) - 1 );
 
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@mixin breakpoint($map) {
+  $query: "";
+  @if map-has-key($map, min) { $query: append($query, "(min-width: #{map-get($map, min)})") }
+  @if map-has-key($map, min) and map-has-key($map, max) { $query: append($query, "and") }
+  @if map-has-key($map, max) { $query: append($query, "(max-width: #{map-get($map, max)})") }
+  @media screen and #{$query} { @content; }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

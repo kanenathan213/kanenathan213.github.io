@@ -1,57 +1,22 @@
 ---
-layout: default-with-header
+layout: default-without-header
 ---
 <div class="home">
-  <div class="wrapper container-fluid">
-  {% for project in site.projects %}
-    {% if project.featured == 'true' %}
-      <a href='{{ project.url }}' class="project-container-link-wrapper">
-        <div class="project-container row">
-          <div class="project-link-image-wrapper col-sm-1">
-            <img src="{{ project.thumbnail_img_url }}" class="project-link-image">
-          </div>
-          <div class="project-link-text-wrapper col-sm-9">
-            <div class='project-link'>{{ project.label }}</div>
-            <div class="project-link-tagline">{{ project.tagline }}</div>
-          </div>
-        </div>
-      </a>
-    {% endif %}
-  {% endfor %}
-  <div id="hidden-project-container" class="hidden-projects">
-  {% for project in site.projects %}
-    {% if project.featured == 'false' %}
-      <a href='{{ project.url }}' class="project-container-link-wrapper">
-        <div class="project-container row">
-          <div class="project-link-image-wrapper col-sm-1">
-            <img src="{{ project.thumbnail_img_url }}" class="project-link-image">
-          </div>
-          <div class="project-link-text-wrapper col-sm-9">
-            <div class='project-link'>{{ project.label }}</div>
-            <div class="project-link-tagline">{{ project.tagline }}</div>
-          </div>
-        </div>
-      </a>
-    {% endif %}
-  {% endfor %}
-  </div>
-  <div id="toggle" class="toggle-projects-list">See more</div>
+  <div class="home-content-wrapper">
+    <div class="home-primary-content">
+      <h1 class="site-title">{{ site.title }}</h1>
+      <div class="site-tagline">{{ site.tagline }}</div>
+      <div class="index-link-wrapper">
+        {% include icon-github.html %}
+        {% include icon-dribbble.html %}
+        <a href="/writing/" class="icon-link">Writing</a>
+      </div>
+      <div class="divider"></div>
+    </div>
+    <div class="index-bio-wrapper">
+      <div class="index-bio">
+        {{ site.bio }} <a class="bio-link" href="/about">Learn more</a>
+      </div>
+    </div>
   </div>
 </div>
-
-<script>
-  var hiddenProjectsContainer = document.getElementById('hidden-project-container');
-  var toggle = document.getElementById('toggle');
-
-  var toggleShow = function() {
-    if (hiddenProjectsContainer.className === 'hidden-projects') {
-      hiddenProjectsContainer.className = '';
-      toggle.innerHTML = "See only featured";
-    }
-    else if (hiddenProjectsContainer.className === '') {
-      hiddenProjectsContainer.className = 'hidden-projects';
-      toggle.innerHTML = "See more";
-    }
-  }
-  toggle.addEventListener('click', toggleShow);
-</script>

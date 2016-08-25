@@ -10,3 +10,32 @@ layout: default-with-header
     </div>
   </div>
 </section>
+<script type="text/javascript">
+function SelectAll(id) {
+  document.getElementById(id).select();
+}
+
+var copyButton = document.getElementById('copy-button');
+var idleWrapper = document.getElementById('copy-button-idle');
+var successWrapper = document.getElementById('copy-success-wrapper');
+
+copyButton.addEventListener('click', function(event) {
+  var copyTextarea = document.getElementById('txtarea');
+  copyTextarea.select();
+
+  try {
+    var successful = document.execCommand('copy');
+    if ( document.selection ) {
+        document.selection.empty();
+    } else if ( window.getSelection ) {
+        window.getSelection().removeAllRanges();
+    }
+    successWrapper.classList.remove('is-hidden');
+    setTimeout(function() {
+      copyButton.classList.remove('success');
+      successWrapper.classList.add('is-hidden');
+    }, 2000);
+  } catch (err) {
+  }
+});
+</script>
