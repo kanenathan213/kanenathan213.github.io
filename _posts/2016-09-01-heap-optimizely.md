@@ -12,7 +12,7 @@ comments: true
 <br>
 [Heap](https://heapanalytics.com/) is a pretty revolutionary approach to analytics, providing lots of tracking for very little instrumentation work. However, one customization that my team found necessary was to link active Optimizely experiments to Heap behavior tracking, so we could set up funnels and segments based on who saw which experiment.
 
-The [Heap documentation](https://heapanalytics.com/docs/using-identify) provides the way to do this. However, in implementing this into my project, I suspected there was a more ES6-compliant and error-proof way to write this method.
+The [Heap documentation](https://heapanalytics.com/docs/using-identify) provides the way to do this. However, in implementing this into my project, I suspected there was a more expressive and error-proof way to write this method.
 
 Here's the snippet they provide to build an object of Optimizely experiments and send them to Heap.
 
