@@ -346,18 +346,11 @@
  * Page content
  */
 .page-content {
-  background: linear-gradient(rgba(0, 24, 43, 1), rgba(0, 24, 43, 0.9));
   font-size: 18px;
-  padding: 0 5%;
-  @include breakpoint($md) {
-    padding: 0;
+  padding: 0;
+  @include breakpoint($sm) {
+    font-size: 14px;
   }
-}
-
-@include breakpoint($xs) {
-    .page-content {
-        font-size: 14px;
-    }
 }
 
 .page-heading {
@@ -539,6 +532,7 @@
 }
 
 .home {
+  background: linear-gradient(rgba(0, 24, 43, 1), rgba(0, 24, 43, 0.9));
   min-height: 70vh;
   height: 100vh;
   display: flex;
