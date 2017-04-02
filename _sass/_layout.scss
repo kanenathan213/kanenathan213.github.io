@@ -94,8 +94,9 @@
     color: inherit;
     transition: font-weight 0.2 ease-out;
     font-weight: bolder;
-    &:hover {
-    }
+  }
+  @include breakpoint($md) {
+    margin-left: 30px;
   }
 }
 
@@ -184,7 +185,7 @@
 .site-tagline {
   color: rgba(white, 0.5);
   margin-top: 10px;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-style: italic;
   letter-spacing: 0.01rem;
 }
@@ -531,12 +532,42 @@
   }
 }
 
+.project-links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+
+  .project-link {
+    padding: 10px;
+    border: 1px solid rgba(white, 0.2);
+    border-bottom: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(white, 0);
+    text-transform: none;
+    color: inherit;
+    transition: background 0.2s ease-out;
+    @include breakpoint($xs) {
+      height: 50px;
+    }
+    &.is-link:hover {
+      background: rgba(white, 0.15);
+      text-decoration: none;
+    }
+  }
+}
+
+
 .home {
   background: linear-gradient(rgba(0, 24, 43, 1), rgba(0, 24, 43, 0.9));
   min-height: 70vh;
   height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
   .projects-wrapper {
     // display: flex;
     display: none;

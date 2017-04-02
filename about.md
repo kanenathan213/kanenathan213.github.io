@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I identify and solve important problems with elegant code and clean interfaces. My toolbelt includes React, SVG, animation, Sass, and Sketch.
+I build web products that people need. My toolbelt currently includes React, Redux, Node, Flow static type, ImmutableJS, D3, RxJS, and Sketch. I'm a big fan of functional and reactive programming techniques, automated testing, and continuous deployment.
+
+I believe that companies win on product quality, and that is best achieved through rapid, relentless experimentation and iteration. My mindset has been shaped through launching financial products at Intuit & Mint, running dozens of A/B tests on the Clinton campaign fundraising platform, and building a new SaaS tool for the logistics startup Transfix.
 
 When not looking at a screen, I can be found hiking to scenic viewpoints, scuba diving, and devouring sushi (not at the same time).
 
