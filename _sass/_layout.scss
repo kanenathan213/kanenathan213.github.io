@@ -532,29 +532,31 @@
   }
 }
 
+.project-links-content {
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  justify-content: center;
+}
+
 .project-links-wrapper {
   display: flex;
-  justify-content: space-between;
-  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
 
   .project-link {
     padding: 10px;
-    border: 1px solid rgba(white, 0.2);
     border-bottom: none;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(white, 0);
     text-transform: none;
+    text-decoration: underline;
     color: inherit;
-    transition: background 0.2s ease-out;
     @include breakpoint($xs) {
       height: 50px;
-    }
-    &.is-link:hover {
-      background: rgba(white, 0.15);
-      text-decoration: none;
     }
   }
 }

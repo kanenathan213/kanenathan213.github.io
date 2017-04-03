@@ -5,5 +5,5 @@ label: 'QuickBooks expenses'
 tagline: 'I designed the automatic expense categorization flow'
 thumbnail_img_url: '../../assets/qb_thumbnail.png'
 featured: 'true'
-browse_index: 2
+browse_index: 9
 ---

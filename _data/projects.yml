@@ -77,6 +77,29 @@ qb_onboarding:
         caption: "We ended up hiding much of the product functionality initially, and replaced it with a clear choice and guidance on the payroll workflow's very first suggested step. The setup tasks are condensed down into a short list displayed on the side, along with some education content for those not yet ready to buy."
         screenshot_url: "../../assets/qb-onboarding-step-4.png"
 
+hfa:
+    title: "Hillary for America fundraising"
+    question: "How can we make it easy for people to contribute to a cause they believe in?"
+    overview: "As part of the fundraising tech team, I worked on a single-page application that could be tailored to a variety of fundraising initiatives. We used React, a flux architecture, and a Rails/Flask backend, with extensive automated test coverage. Key to our success was a powerful experimentation/analytics framework using Optimizely and Heap, that coordinated tightly with our email tools. Given the unique needs of a campaign, we built first for scale and performance, then really focused on speed in the final weeks to achieve the campaign's ambitious fundraising targets."
+    hero_image_path: "../../assets/donation-page.png"
+    steps:
+      - caption_title: "What I helped build"
+        caption: "(1) Paypal integration to augment the standard credit card Stripe checkout. (2) A simple, performant fail-over donation page in case the main website crashed. (3) Launched dozens of A/B tests to optimize conversion through the donation funnel. (4) Integrated the full donation application into the homepage to increase conversion."
+        screenshot_url: "../../assets/donate-page-2.png"
+      - caption_title: "Accomplishments"
+        caption: "Our winning experiments led to significant conversion improvements, resulting in tens of millions of dollars in additional donation totals to the campaign, even besting previous campaign donation numbers."
+        screenshot_url: "../../assets/donate-page-3.jpg"
+
+transfix:
+    title: "Transfix"
+    question: "How can we make the movement of goods more efficient?"
+    overview: "As a member of the front-end engineering team, I helped build tools for managing supply chain logistics. Our flagship app was built in AureliaJS, but for the demands I foresaw in our product roadmaps, I advocated for and architected a micro-app approach based on customer use case, to allow teams to move faster. The result was a brand new SaaS application for shippers built in React/Redux."
+    hero_image_path: "../../assets/transfix-1.png"
+    steps:
+      - caption_title: "Accomplishments"
+        caption: "(1) Built in automated testing to ensure code and product quality. (2) Re-architected the front-end stack by building a new SaaS application on React/Redux. (3) Re-rewrote the build system to enable continuous deployment, speeding up delivery cycles. (4) Wrote and open-sourced a plugin for our unit testing framework."
+        screenshot_url: "../../assets/transfix-2.png"
+
 mint:
     title: "Mint car value"
     question: "How does your car impact your financial life?"
