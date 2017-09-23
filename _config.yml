@@ -1,6 +1,6 @@
 title: Nathan Kane
 tagline: Product engineering
-bio: I'm a product engineer focused on building for the web, currently at a freight transportation startup called Transfix. Previously, I worked at the Clinton campaign and Intuit.
+bio: I'm a product-focused software engineer working primarily in Javascript (React/Redux), currently at a credit startup called Petal. I also enjoy building API's with Python and Elixir.
 email: hi@nathanrkane.com
 description: > # this means to ignore newlines until "baseurl:"
   The front-end engineering and product design
@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   building UX with Javascript.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kanenathan213.github.io" # the base hostname & protocol for your site
-twitter_username: uibiquity
+twitter_username: kanenathan213
 github_username:  kanenathan213
 dribbble_username:  kanenathan213
 collections:
