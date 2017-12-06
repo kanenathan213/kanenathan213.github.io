@@ -48,7 +48,7 @@
     display: none;
     height: 150%;
     position: absolute;
-    right: 15%;
+    right: 5%;
     top: -17%;
     transform: rotate(55deg);
     width: 2px;
@@ -100,14 +100,14 @@
     font-weight: bolder;
   }
   @include breakpoint($md) {
-    margin-left: 30px;
+    margin-left: 60px;
   }
 }
 
 .index-link-wrapper {
   display: flex;
   justify-content: space-between;
-  max-width: 170px;
+  max-width: 250px;
   margin-top: 13px;
   align-items: flex-end;
   margin-left: auto;
