@@ -15,6 +15,9 @@ Here are the common words past colleagues used to describe me:
 ![Word cloud](/assets/56937ba8fd0ff48f100f4322_Screenshot 2016-01-11 16.52.45.png){: .about-image }
 
 <div class="contact-text-wrapper">
+  <h3>I love mentoring junior engineers: </h3>
+  <div><script data-codementor="kanenathan213" data-style="button" data-theme="dark" src="https://cdn.codementor.io/assets/badge.js"></script></div>
+  <h3 style="margin-top: 15px;">Or, just shoot me an email</h3>
   <input type="text" id="txtarea" onClick="SelectAll('txtarea');" class="email-link" value="{{ site.email }}" readonly>
   <button class="copy-button" id="copy-button">
     <span id="copy-button-idle" class="copy-button-idle">
