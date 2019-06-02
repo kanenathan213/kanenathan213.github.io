@@ -4,4 +4,4 @@ title: Where is Nathan
 permalink: /where-is-nathan/
 ---
 
-I'm currently in San Diego
+I'm currently in Brooklyn, New York.

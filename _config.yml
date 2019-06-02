@@ -3,9 +3,7 @@ tagline: Product engineering
 bio: I'm a product-focused software engineering leader. I love using Python, React, and Node to solve big problems.
 email: hi@nathanrkane.com
 description: > # this means to ignore newlines until "baseurl:"
-  The front-end engineering and product design
-  blog of Nathan Kane, a front-end developer and designer. I write about what I learn
-  building UX with Javascript.
+  My personal site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kanenathan213.github.io" # the base hostname & protocol for your site
 twitter_username: kanenathan213
