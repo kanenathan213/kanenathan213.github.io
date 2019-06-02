@@ -112,13 +112,13 @@
   align-items: flex-end;
   margin-left: auto;
   margin-right: auto;
+  a:first-child {
+    margin-right: 22px;
+  }
   @include breakpoint($md) {
     margin-left: inherit;
     margin-right: inherit;
     justify-content: flex-start;
-    a:first-child {
-      margin-right: 22px;
-    }
   }
   a {
     color: rgba(255, 255, 255, 0.5);
