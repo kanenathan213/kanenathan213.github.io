@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I build products people need. My toolbelt includes React/Redux, React Native, and Python (Flask). I'm a big fan of functional programming, strong type checking (Flow/Typescript), automated testing (Jest/Enzyme), and continuous deployment.
+I'm an engineering manager and software engineer based in New York City. My toolbelt includes Python, Node, and React/Redux/React Native. I'm a big fan of functional programming, strong typing, and automated testing.
 
-I believe companies win on product quality, and that high quality is achieved through rapid, relentless experimental iteration. My mindset has been shaped by launching financial products at Intuit & Mint, running dozens of A/B tests on the Clinton campaign fundraising platform, and building a new SaaS tool for the logistics startup Transfix.
+I believe companies tend to win on product quality, and that high quality is achieved through rapid, relentless experimental iteration. My mindset has been shaped by launching financial products at Intuit & Mint, running dozens of A/B tests on the Clinton campaign fundraising platform, and building the <a href="https://www.petalcard.com/" target="_blank">Petal</a> product and engineering team.
 
 When not looking at a screen, I can be found hiking to scenic viewpoints, scuba diving, and devouring sushi (not at the same time).
 
@@ -15,7 +15,6 @@ Here are the common words past colleagues used to describe me:
 ![Word cloud](/assets/56937ba8fd0ff48f100f4322_Screenshot 2016-01-11 16.52.45.png){: .about-image }
 
 <div class="contact-text-wrapper">
-  <h3>I love mentoring junior engineers: </h3>
   <div><script data-codementor="kanenathan213" data-style="button" data-theme="dark" src="https://cdn.codementor.io/assets/badge.js"></script></div>
   <h3 style="margin-top: 15px;">Or, just shoot me an email</h3>
   <input type="text" id="txtarea" onClick="SelectAll('txtarea');" class="email-link" value="{{ site.email }}" readonly>
