@@ -48,3 +48,7 @@ $md-only: ( min: map-get($md, min), max: map-get($lg, min) - 1 );
         "syntax-highlighting",
         "bootstrap-grid"
 ;
+
+.post-content {
+  margin: 15px;
+}
