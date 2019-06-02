@@ -10,12 +10,11 @@ My perspective has been shaped by launching financial products at Intuit & Mint,
 
 When not looking at a screen, I can be found hiking to scenic viewpoints, scuba diving, and devouring sushi (not at the same time).
 
-Here are the common words past colleagues used to describe me:
-
-![Word cloud](/assets/56937ba8fd0ff48f100f4322_Screenshot 2016-01-11 16.52.45.png){: .about-image }
-
 <div class="contact-text-wrapper">
   <div><script data-codementor="kanenathan213" data-style="button" data-theme="dark" src="https://cdn.codementor.io/assets/badge.js"></script></div>
+  <a href="https://www.linkedin.com/in/nathankane/">LinkedIn</a>
+  <br>
+  <a href="https://github.com/kanenathan213" class="icon-link">Github</a>
   <h3 style="margin-top: 15px;">Or, just shoot me an email</h3>
   <input type="text" id="txtarea" onClick="SelectAll('txtarea');" class="email-link" value="{{ site.email }}" readonly>
   <button class="copy-button" id="copy-button">
