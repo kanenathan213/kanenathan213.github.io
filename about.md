@@ -11,7 +11,6 @@ My perspective has been shaped by launching financial products at Intuit & Mint,
 When not looking at a screen, I can be found hiking to scenic viewpoints, scuba diving, and devouring sushi (not at the same time).
 
 <div class="contact-text-wrapper">
-  <div><script data-codementor="kanenathan213" data-style="button" data-theme="dark" src="https://cdn.codementor.io/assets/badge.js"></script></div>
   <a href="https://www.linkedin.com/in/nathankane/">LinkedIn</a>
   <br>
   <a href="https://github.com/kanenathan213" class="icon-link">Github</a>
