@@ -6,7 +6,7 @@ permalink: /about/
 
 I'm an engineering manager and software engineer based in New York City. My toolbelt includes Python, Node, and React/Redux/React Native. I'm a big fan of functional programming, strong typing, and automated testing.
 
-I believe companies tend to win on product quality, and that high quality is achieved through rapid, relentless experimental iteration. My mindset has been shaped by launching financial products at Intuit & Mint, running dozens of A/B tests on the Clinton campaign fundraising platform, and building the <a href="https://www.petalcard.com/" target="_blank">Petal</a> product and engineering team.
+My perspective has been shaped by launching financial products at Intuit & Mint, running dozens of A/B tests on the Clinton campaign fundraising platform, and building the <a href="https://www.petalcard.com/" target="_blank">Petal</a> product and engineering team.
 
 When not looking at a screen, I can be found hiking to scenic viewpoints, scuba diving, and devouring sushi (not at the same time).
 

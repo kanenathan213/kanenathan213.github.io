@@ -106,8 +106,8 @@
 
 .index-link-wrapper {
   display: flex;
-  justify-content: space-between;
-  max-width: 250px;
+  justify-content: space-around;
+  max-width: 100px;
   margin-top: 13px;
   align-items: flex-end;
   margin-left: auto;
@@ -115,12 +115,19 @@
   @include breakpoint($md) {
     margin-left: inherit;
     margin-right: inherit;
+    justify-content: flex-start;
+    a:first-child {
+      margin-right: 22px;
+    }
   }
   a {
     color: rgba(255, 255, 255, 0.5);
     transition: color 0.2s ease-out;
     &:hover {
       color: white;
+    }
+    &:first-child {
+      // margin-right: 22px;
     }
   }
 }
@@ -428,6 +435,7 @@
   line-height: 2.1rem;
   word-break: break-word;
   word-wrap: break-word;
+  margin: 15px;
 
   @include breakpoint($xs) {
     font-size: 1rem;
@@ -716,8 +724,10 @@
 
 .about-image {
   display: block;
-  max-width: 450px;
   margin: auto;
+  @include breakpoint($sm) {
+    max-width: 450px;
+  }
 }
 
 .contact-text-wrapper {
