@@ -1,3 +1,5 @@
+Deprecate and replaced with https://github.com/kanenathan213/personal-site-nextjs
+
 # kanenathan213.github.io
 Blog made with Jekyll
 
